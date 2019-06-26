@@ -14,9 +14,9 @@ message['From'] = Header('蟒王python')
 message['To'] = Header('爪哇')
 # 邮件的标题
 message['Subject'] = Header('来自蟒王python的问候!')
-
-recipient = ["C_TonyJ@163.com", "1932615841@qq.com"]
-email_user = "2934468808@qq.com"
+# 接受邮件的电子邮箱
+recipient = ["xxxxx@163.com", "xxxxx@qq.com"]
+email_user = "xxxxx@qq.com"
 authorization_code = "stsgqxubjvfpdgid"
 
 # 调用SMTP方法
